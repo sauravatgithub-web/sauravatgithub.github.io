@@ -1,0 +1,48 @@
+body {
+    background-image: url(back.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.newMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content : center;
+}
+
+.heading {
+    color : white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.heading label {
+    color : red;
+}
+
+.mainContent {
+    background-color: white;
+    width : 50%;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.4),
+        rgba(255, 255, 255, 0.2)
+    );
+    -webkit-backdrop-filter: blur(1rem);
+    backdrop-filter: blur(1rem);
+    width: 60%;
+    height: 60%;
+    z-index: 1;
+    border-radius: 15%;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    padding: 2%;
+}
+.mainContent {
+    font-weight : bold;
+}
+.red-color {
+    color: orangered;
+    font-size : 20px;
+    font-weight: bold;
+    text-shadow : 2px 2px 5px white;
+}

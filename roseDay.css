@@ -1,0 +1,23 @@
+.main {
+    background-color: #ff69b4d8;
+    height: 100vh;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.content p{
+    font-size : 20px;
+    color: orangered;
+    font-weight: bold;
+}
+
+.content p label a {
+    color: white;
+    text-decoration: underline;
+}
+
+.content p label a:hover {
+    cursor: pointer;
+}
